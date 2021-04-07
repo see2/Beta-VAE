@@ -7,7 +7,8 @@ Pytorch reproduction of two papers below:
 ### Dependencies
 ```
 python 3.6.4
-pytorch 0.3.1.post2
+pytorch
+torchvision
 visdom
 ```
 <br>

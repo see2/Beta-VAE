@@ -18,6 +18,7 @@ from model import BetaVAE_H, BetaVAE_B
 from dataset import return_data
 
 
+# reconstruction loss
 def reconstruction_loss(x, x_recon, distribution):
     batch_size = x.size(0)
     assert batch_size != 0
